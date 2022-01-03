@@ -15,5 +15,9 @@ namespace Stoian_Iuliana_Lab8.Data
         }
 
         public DbSet<Stoian_Iuliana_Lab8.Models.Book> Book { get; set; }
+
+        public DbSet<Stoian_Iuliana_Lab8.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Stoian_Iuliana_Lab8.Models.Category> Category { get; set; }
     }
 }
